@@ -1,44 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+react-router  V4的文档
+https://reacttraining.com/react-router/web/api/Link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+react-router被分为一下几部分：
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+react-router是浏览器和原生应用的通用部分。
+react-router-dom是用于浏览器的。
+react-router-native是用于原生应用的。
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+react-router是核心部分。
+react-router-dom提供了浏览器使用需要的定制组件。
+react-router-native则专门提供了在原生移动应用中需要用到的部分。所以，如果在本例中实现浏览器开发就只需要安装react-router-dom。
+安装:如上所说，我们使用react开发web应用，所以只需要安装react-router-dom。
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+react-concise-router 是一个基于 react-router v4.x 封装的一个路由插件。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+效果图：
+![Image text](https://raw.githubusercontent.com/leforyou/react_todoList/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg)

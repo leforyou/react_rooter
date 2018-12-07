@@ -1,0 +1,22 @@
+.app-container{
+  h1{
+    margin-bottom: 20px;
+  }
+  .nav{
+    background-color: #222;
+    ul{
+      display: flex;
+      li{
+        font-size: 14px;
+        a,span{
+          &.selected{
+            background: #009afe;
+          }
+          line-height: 44px;
+          padding: 0 15px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
