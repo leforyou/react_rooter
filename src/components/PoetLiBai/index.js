@@ -12,6 +12,7 @@ class index extends Component {
     super(props);
     let url = this.props.match.path;
     url = url.replace(/\/:id/,"");
+    console.log(url)
     this.state = {
       url:url
     }
@@ -23,17 +24,19 @@ class index extends Component {
     return (
       <div className="poet-content">
         <div className="titles">
-          <NavLink activeClassName="selected" to={`${this.state.url}/LiBai1`}>《望庐山瀑布》</NavLink>
-          <NavLink activeClassName="selected" to="/PoetLiBai/LiBai2">《早发白帝城》</NavLink>
+          <NavLink activeClassName="selected" to="/PoetLiBai/LiBai1">《望庐山瀑布》</NavLink>
+          <NavLink activeClassName="selected" to={`${'/PoetLiBai'}/LiBai2`}>《早发白帝城》</NavLink>
           <NavLink activeClassName="selected" to="/PoetLiBai/LiBai3">《赠汪伦》</NavLink>
           <span>二级路由</span>
         </div>
         <div className="box">
           <Switch>
-              <Route exact path="/PoetLiBai/LiBai1" component={LiBai1}/>
+              <Route path="/" component={LiBai1}/>
+              <Route path="/PoetLiBai" component={LiBai1}/>
+              <Route path="/PoetLiBai/LiBai1" component={LiBai1}/>
               <Route exact path="/PoetLiBai/LiBai2" component={LiBai2}/>
               <Route exact path="/PoetLiBai/LiBai3" component={LiBai3}/>
-          </Switch>{/**/}
+          </Switch>
         </div>
       </div>
     );
