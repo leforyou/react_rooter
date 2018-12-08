@@ -8,7 +8,7 @@
 
 
 
-react-router  V4的文档
+react-router  V4的文档API
 https://reacttraining.com/react-router/web/api/Link
 
 
@@ -23,7 +23,7 @@ react-router-native是用于原生应用的。
 react-router是核心部分。
 react-router-dom提供了浏览器使用需要的定制组件。
 react-router-native则专门提供了在原生移动应用中需要用到的部分。所以，如果在本例中实现浏览器开发就只需要安装react-router-dom。
-安装:如上所说，我们使用react开发web应用，所以只需要安装react-router-dom。
+安装:如上所说，我们使用react开发web应用，所以只需要安装npm install react-router-dom。
 
 
 react-concise-router 是一个基于 react-router v4.x 封装的一个路由插件。
