@@ -1,7 +1,7 @@
 import React, { Component , Fragment} from "react";
 import "./style.scss";
 
-import { Router, Route , Link,NavLink,BrowserRouter, HashRouter, Switch } from 'react-router-dom';
+//import { Router, Route , Link,NavLink,BrowserRouter, HashRouter, Switch } from 'react-router-dom';
 
 class index extends Component {
   componentDidMount(){
