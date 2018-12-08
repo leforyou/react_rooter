@@ -25,7 +25,7 @@ import LiBai2 from './../LiBai2';
 import LiBai3 from './../LiBai3';
 */
 
-import NoMatch from './../NoMatch';
+import NotFound from './../NotFound';
 
 
 
@@ -77,7 +77,7 @@ class App extends Component {
             </Route>
             <Route exact path="/PoetDuFu" component={PoetDuFu}/>
             <Route exact path="/PoetLiShangYin" component={PoetLiShangYin}/>
-            <Route component={NoMatch}/>
+            <Route component={NotFound}/>
         </Switch>
       </div>
      

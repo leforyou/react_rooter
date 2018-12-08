@@ -3,7 +3,7 @@ import "./style.scss";
 
 //import { Router, Route , Link,BrowserRouter, HashRouter, Switch } from 'react-router-dom';
 
-class index extends Component {
+class NotFound extends Component {
   render() {
     return (
       <div className="">
@@ -13,4 +13,4 @@ class index extends Component {
   }
 }
 
-export default index;
+export default NotFound;

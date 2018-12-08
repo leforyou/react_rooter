@@ -31,9 +31,9 @@ class index extends Component {
         </div>
         <div className="box">
           <Switch>
-              <Route path="/" component={LiBai1}/>
-              <Route path="/PoetLiBai" component={LiBai1}/>
-              <Route path="/PoetLiBai/LiBai1" component={LiBai1}/>
+              <Route exact path="/" component={LiBai1}/>
+              <Route exact path="/PoetLiBai" component={LiBai1}/>
+              <Route exact path="/PoetLiBai/LiBai1" component={LiBai1}/>
               <Route exact path="/PoetLiBai/LiBai2" component={LiBai2}/>
               <Route exact path="/PoetLiBai/LiBai3" component={LiBai3}/>
           </Switch>
